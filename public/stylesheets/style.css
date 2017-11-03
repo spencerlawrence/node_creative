@@ -1,0 +1,38 @@
+body {
+	background-image: url("https://www.spalding.com/dw/image/v2/ABAH_PRD/on/demandware.static/-/Sites-masterCatalog_SPALDING/default/dw5541015a/images/hi-res/74875E_1.png?sw=1110&sh=1377&sm=cut");
+    background-color: #cccccc;
+    background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Arvo', serif;
+}
+
+ul {
+	text-align: center;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+p{
+	display: inline;
+	font-family: 'Arvo', serif;
+	color: blue;
+	align: center;
+}
+
+#city {
+	font-family: 'Arvo', serif;
+	font-size: 15pt;
+	color: white;
+}
+
+#team {
+	font-family: 'VT323', monospace !important;
+	font-size: 50pt !important;
+	color: white !important;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="javascripts/app.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Arvo|VT323" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>NBA Teams</title>
+</head>
+<body>
+  <h1>NBA Teams</h1>
+  <p>I've created an API of NBA teams, found <a href='/teams'>here</a><br>Scroll down to see a list of all teams in the NBA.</p><br><br><br><br>
+
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+
+    <ul class='list center stretch' style="list-style-type: none">
+      <li ng-repeat='team in teams' class='teams'>
+        <p id="city">{{ team.city }}</p><br><p id="team">{{ team.name }}</p><br>
+        <img class='logo' ng-src="{{ team.logo }}"/><br><br><br><br><br><br>
+      </li>
+    </ul>
+   
+  </div>
+
+</body>
+</html>
